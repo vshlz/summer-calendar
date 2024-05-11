@@ -1,45 +1,51 @@
-<!DOCTYPE html>
-<html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <title>TIKO Kesäkalenteri 2024</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>TIKO Kesäkalenteri 2024</h1>
-    <table id="calendar">
-        <tr>
-            <td class="week">Viikko 1</td>
-            <td class="week">Viikko 2</td>
-            <td class="week">Viikko 3</td>
-        </tr>
-        <tr>
-            <td class="week">Viikko 4</td>
-            <td class="week">Viikko 5</td>
-            <td class="week">Viikko 6</td>
-        </tr>
-        <tr>
-            <td class="week">Viikko 7</td>
-            <td class="week">Viikko 8</td>
-            <td class="week">Viikko 9</td>
-        </tr>
-        <tr>
-            <td class="week">Viikko 10</td>
-            <td class="week">Viikko 11</td>
-            <td class="week">Viikko 12</td>
-        </tr>
-        <tr>
-            <td class="week">Viikko 13</td>
-            <td colspan="2"></td> <!-- Jätetään tyhjiksi symmetrian vuoksi -->
-        </tr>
-    </table>
-    <div id="modal" class="modal" style="display:none;">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p id="modal-text">Some text in the Modal..</p>
+    <!DOCTYPE html>
+    <html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <title>TIKO Kesäkalenteri 2024</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <h1>TIKO Kesäkalenteri 2024</h1>
+        <table id="calendar">
+            <tr>
+                <td class="week">Viikko 1</td>
+                <td class="week">Viikko 2</td>
+                <td class="week">Viikko 3</td>
+            </tr>
+            <tr>
+                <td class="week">Viikko 4</td>
+                <td class="week">Viikko 5</td>
+                <td class="week">Viikko 6</td>
+            </tr>
+            <tr>
+                <td class="week">Viikko 7</td>
+                <td class="week">Viikko 8</td>
+                <td class="week">Viikko 9</td>
+            </tr>
+            <tr>
+                <td class="week">Viikko 10</td>
+                <td class="week">Viikko 11</td>
+                <td class="week">Viikko 12</td>
+            </tr>
+            <tr>
+                <td class="week">Viikko 13</td>
+                <td colspan="2"></td> <!-- Jätetään tyhjiksi symmetrian vuoksi -->
+            </tr>
+        </table>
+        <div id="modal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-text">Some text in the Modal..</p>
+                <img id="modal-image" src="" alt="Modal Image" style="display:none; max-width:100%;">
+                <div id="modal-video">  </div>
+                <div id="modal-map" style="display:none; width: 100%; height: 200px;"></div>
+            </div>
         </div>
-    </div>
-    
-    <script src="script.js"></script>
-</body>
-</html>
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
