@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const weeks = document.querySelectorAll('.week');
+    const modal = document.getElementById('modal');
+    const modalText = document.getElementById('modal-text');
+    const close = document.getElementsByClassName("close")[0];
+
     const messages = [
         'Ulkona järjestettävä konsertti',
         'Retki kansallispuistoon',
@@ -19,7 +23,18 @@ document.addEventListener("DOMContentLoaded", function() {
     weeks.forEach(week => {
         week.addEventListener('click', function() {
             const randomMsg = messages[Math.floor(Math.random() * messages.length)];
-            alert(randomMsg);
+            modalText.textContent = randomMsg;
+            modal.style.display = "block";
         });
     });
+
+    close.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
 });
