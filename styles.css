@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+#calendar {
+    margin: auto;
+    width: 60%; 
+    table-layout: fixed; 
+    border-collapse: collapse; 
+}
+
+.week {
+    position: relative;
+    width: 33.33%; 
+    height: 100px; 
+    background-color: #fff;
+    border: 2px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.week:hover {
+    transform: scale(1.1);
+}
