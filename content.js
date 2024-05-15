@@ -3,14 +3,14 @@ content = [
     {
         "text": "SEA LIFE",
         "image": "https://www.visitsealife.com/helsinki/media/gfibd23o/sea-life-helsinki3.jpg?anchor=center&mode=crop&format=webp&quality=80&width=500&height=250",
-        "map": { "lat": 60.2088702, "lng": 24.8966399 },
+        "map": { "lat": 60.18938, "lng": 24.93999 },
         "video": "z-Xu-72IK3k?si=Y3iBfYHIWZltluMZ"
     },
     // Viikko 2
     {
         "text": "LINNANMÄKI",
-        "image": "https://huvipuistoblogi.fi/wp-content/uploads/2022/06/linnanmaki_logo-1024x768.jpg",
-        "map": { "lat": 60.2098557, "lng": 24.8966399 },
+        "image": "https://linnanmaki.studio.crasman.cloud/pub/frontpage%20hero%20images/Rolle_2022_1920x1080.jpg?c=system_640x",
+        "map": { "lat": 60.18826, "lng": 24.94074 },
         "video": "OAGfde6SPMU?si=eR_hF6BkUk8x8cc8"
     },
     // Viikko 3
@@ -24,14 +24,14 @@ content = [
     {
         "text": "KIASMA",
         "image": "https://kiasma.fi/wp-content/uploads/sites/2/2020/11/kiasma_generic.jpg",
-        "map": { "lat": 60.2010285, "lng": 24.8962488 },
+        "map": { "lat": 60.17204, "lng": 24.93658 },
         "video": "cifFyTwidQE?si=M2ChzzK8cQN7eO2F"
     },
     // Viikko 5
     {
         "text": "ATENEUM",
         "image": "https://ateneum.fi/wp-content/uploads/sites/3/2022/02/Ateneum_2000px_14_1_22_cVille_Malja-23.jpg",
-        "map": { "lat": 60.2314214, "lng": 25.0249847 },
+        "map": { "lat": 60.17002, "lng": 24.94407 },
         "video": "J-lZNAzAcuI?si=crpN4oyU3MrLFoCP"
     },
     // Viikko 6
@@ -73,21 +73,21 @@ content = [
     {
         "text": "KORKEASAARI",
         "image": "https://xb-static.nm-ovp.nelonenmedia.fi/xb/styles/640x360/public/img/c6f482b270a49bccfaa06b446f18b4654f95efe2-10476.jpg",
-        "map": { "lat": 60.1730667, "lng": 24.8840356 },
+        "map": { "lat": 60.1738, "lng": 24.9863 },
         "video": "__X2QPZdp8w?si=oJjua66eQPOsp8sr"
     },
     // Viikko 12
     {
         "text": "TEMPPELIAUKION KIRKKO",
         "image": "https://projektiuutiset.fi/wp-content/uploads/2015/11/Q1W4267.jpg",
-        "map": { "lat": 60.1730277, "lng": 24.9226601 },
+        "map": { "lat": 60.17297, "lng": 24.92520 },
         "video": "Vua-WTTfcCU?si=pr0LSGSR3BXD6kO8"
     },
     // Viikko 13
     {
         "text": "OODI",
         "image": "https://ala.fi/wordpress/wp-content/uploads/2019/01/TU-181231-ala-oodi-071-screen-1140x759.jpg",
-        "map": { "lat": 60.1739249, "lng": 24.9353797 },
+        "map": { "lat": 60.17368, "lng": 24.93798 },
         "video": "f3MPmnpl1lI?si=zWNRS3UIa8V3-SYF"
     },
 ];
