@@ -66,28 +66,28 @@ content = [
     {
         "text": "LUONNONTIETEELLINEN MUSEO",
         "image": "https://museo.fi/wp-content/uploads/2023/04/luomus_luonnontieteellinen_museo_dinosaurusten_maailma_kuva_emma_suominen_1.jpg",
-        "map": { "lat": 60.2015952, "lng": 24.9036949 },
+        "map": { "lat": 60.1714146, "lng": 24.9286859 },
         "video": "jX2xDw4EubY?si=lRqUdNQ3p8d-9fAw"
     },
     // Viikko 11
     {
         "text": "KORKEASAARI",
         "image": "https://xb-static.nm-ovp.nelonenmedia.fi/xb/styles/640x360/public/img/c6f482b270a49bccfaa06b446f18b4654f95efe2-10476.jpg",
-        "map": { "lat": 60.1748879, "lng": 24.9359523 },
+        "map": { "lat": 60.1730667, "lng": 24.8840356 },
         "video": "__X2QPZdp8w?si=oJjua66eQPOsp8sr"
     },
     // Viikko 12
     {
         "text": "TEMPPELIAUKION KIRKKO",
         "image": "https://projektiuutiset.fi/wp-content/uploads/2015/11/Q1W4267.jpg",
-        "map": { "lat": 60.2007033, "lng": 24.891211 },
+        "map": { "lat": 60.1730277, "lng": 24.9226601 },
         "video": "Vua-WTTfcCU?si=pr0LSGSR3BXD6kO8"
     },
     // Viikko 13
     {
         "text": "OODI",
         "image": "https://ala.fi/wordpress/wp-content/uploads/2019/01/TU-181231-ala-oodi-071-screen-1140x759.jpg",
-        "map": { "lat": 60.2011139, "lng": 24.8962483 },
+        "map": { "lat": 60.1739249, "lng": 24.9353797 },
         "video": "f3MPmnpl1lI?si=zWNRS3UIa8V3-SYF"
     },
 ];
